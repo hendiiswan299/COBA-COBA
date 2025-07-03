@@ -1,5 +1,11 @@
 # app.py
+import sys
+import os
 
+# Menambahkan direktori root proyek ke path Python
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+
+# ---- Baru lakukan import modul Anda di bawahnya ----
 import streamlit as st
 from models.manajer_tugas import ManajerTugas
 from models.tugas import Tugas, TugasPrioritas

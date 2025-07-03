@@ -1,0 +1,17 @@
+[
+    {
+        "tipe": "Tugas",
+        "judul": "Laporan Praktikum PBO",
+        "deskripsi": "Sesi 14",
+        "deadline": "10-07-2025",
+        "selesai": false
+    },
+    {
+        "tipe": "TugasPrioritas",
+        "judul": "UAS PBO",
+        "deskripsi": "Sesi 15",
+        "deadline": "11-07-2025",
+        "selesai": false,
+        "prioritas": "Tinggi"
+    }
+]
